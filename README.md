@@ -51,3 +51,18 @@ console.log(s.CharAt(2)) // выведет l
 console.log(s.at(-1)) // выведет o
 ```
 Метод at() более современый вариант поскольку at() может принимать отрицательные индексы в отличии от charAt(). Это их единственое и основное различие
+
+## Поиск текста внутри строки includes()
+
+includes проверяет есть ли текст внутри строки. includes() может вернуть всего 2 значения true and false. Пример 
+
+``` js
+    let s = "hello";
+    return s.includes("hello"); //true
+```
+``` js
+    let s = "hello";
+    return s.includes("hi"); //fale
+```
+
+Однако includes очень чуствителен к буквам.
