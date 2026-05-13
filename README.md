@@ -62,7 +62,12 @@ includes проверяет есть ли текст внутри строки. 
 ```
 ``` js
     let s = "hello";
-    return s.includes("hi"); //fale
+    return s.includes("hi"); //false
 ```
 
 Однако includes очень чуствителен к буквам.
+
+``` js
+    let s = "Hello";
+    return s.includes("hello"); //false поскольку тексты не совпадают
+```
