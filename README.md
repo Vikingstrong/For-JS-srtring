@@ -84,3 +84,19 @@ Indexof() предназначен для нахождения индекса п
 ``` js
     console.log(str.indexOf("s")) //Вывод -1
 ```
+
+## startsWith() 
+startsWith() проверяет начинается ли строка с указаного текста.Он так же имеет 2 значения true, false. Пример:
+
+``` js
+    let txt = "Itsme"
+
+    console.log("Its") //Выведет true
+```
+## endsWith()
+
+endsWith() Работает точно так же однако начинает с конца строки
+
+``` js
+    console.log("me") //Выведет true
+```
